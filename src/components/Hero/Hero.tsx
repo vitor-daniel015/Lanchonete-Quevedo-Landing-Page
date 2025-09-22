@@ -1,4 +1,4 @@
-import { NotebookPen, Phone } from 'lucide-react';
+import { Phone } from 'lucide-react';
 
 function Hero() {
   return (
@@ -22,10 +22,6 @@ function Hero() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <button className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center gap-2">
-            <NotebookPen className="h-5 w-5" />
-            Peça Agora
-          </button>
           <a 
             href="https://wa.me/5515997553222" 
             target="_blank" 

@@ -30,9 +30,9 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Redes Sociais</h3>
             <div className="flex space-x-4">
-              <button className="bg-amber-700 hover:bg-amber-600 p-3 rounded-full transition-colors">
+              <a href="https://www.instagram.com/quevedos_lanchonete" className="bg-amber-700 hover:bg-amber-600 p-3 rounded-full transition-colors">
                 <Instagram className="h-5 w-5" />
-              </button>
+              </a>
               <a 
                 href="https://www.facebook.com/quevedoslanchonete/?locale=pt_BR" 
                 target="_blank" 

@@ -26,7 +26,7 @@ export default function Navbar({ isMenuOpen, setIsMenuOpen, scrolled }: NavbarPr
             <a href="#specialties" className="text-amber-800 hover:text-yellow-600 transition-colors font-semibold">Especialidades</a>
             <a href="#menu" className="text-amber-800 hover:text-yellow-600 transition-colors font-semibold">Cardápio</a>
             <a href="#location" className="text-amber-800 hover:text-yellow-600 transition-colors font-semibold">Localização</a>
-            <a href="#delivery" className="text-amber-800 hover:text-yellow-600 transition-colors font-semibold">Delivery</a>
+        
           </div>
 
           {/* Mobile menu button */}
