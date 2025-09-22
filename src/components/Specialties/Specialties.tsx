@@ -66,7 +66,7 @@ function Specialties({ specialties }: SpecialtiesProps) {
                     Instagram
                   </a>
                   <a 
-                    href="https://wa.me/5511999999999?text=Olá! Gostaria de fazer um pedido de ${item.name}" 
+                    href="https://wa.me/5515997553222?text=Olá! Gostaria de fazer um pedido de ${item.name}" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-all duration-300 text-sm font-medium"

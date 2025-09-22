@@ -26,14 +26,22 @@ function Hero() {
             <NotebookPen className="h-5 w-5" />
             Peça Agora
           </button>
-          <button className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center gap-2">
+          <a 
+            href="https://wa.me/5515997553222" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center gap-2"
+          >
             <img src="/images/whatsapp.png" alt="WhatsApp" className="h-5 w-5" />
             WhatsApp
-          </button>
-          <button className="bg-yellow-600 hover:bg-yellow-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center gap-2">
+          </a>
+          <a 
+            href="tel:+5515997553222"
+            className="bg-yellow-600 hover:bg-yellow-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center gap-2"
+          >
             <Phone className="h-5 w-5" />
             Ligue Agora
-          </button>
+          </a>
         </div>
       </div>
     </section>

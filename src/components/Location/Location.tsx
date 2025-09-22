@@ -20,9 +20,8 @@ function Location() {
               <div>
                 <h3 className="text-xl font-bold text-amber-800 mb-2">Endereço</h3>
                 <p className="text-amber-700">
-                  Rod. Ver. João Antônio Nunes<br />
-                  Centro - Capela do Alto, SP<br />
-                  CEP: 18195-000
+                  R. São Francisco n°19<br />
+                  Capela do Alto, SP, Brazil
                 </p>
               </div>
             </div>
@@ -44,8 +43,9 @@ function Location() {
               <div>
                 <h3 className="text-xl font-bold text-amber-800 mb-2">Contato</h3>
                 <p className="text-amber-700">
-                  Telefone: (15) 3267-1234<br />
-                  WhatsApp: (15) 99999-9999
+                  Telefone: (15) 99755-3222<br />
+                  WhatsApp: (15) 99755-3222<br />
+                  Email: nenequevedo@hotmail.com
                 </p>
               </div>
             </div>
