@@ -4,26 +4,17 @@ function Hero() {
   return (
     <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat backdrop-blur-sm"
         style={{
           backgroundImage: 'url(https://images.pexels.com/photos/4198019/pexels-photo-4198019.jpeg?auto=compress&cs=tinysrgb&w=1600)',
         }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-40 backdrop-blur-md"></div>
         
         {/* Overlay com gradiente decorativo */}
-        <div className="absolute inset-0 bg-gradient-to-t from-amber-900/30 via-transparent to-amber-900/20"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-amber-900/30 via-transparent to-amber-900/20 backdrop-blur-sm"></div>
       </div>
-      
-      {/* Padrão decorativo de fundo */}
-      <div 
-        className="absolute inset-0 opacity-10"
-        style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23fbbf24' fill-opacity='0.6'%3E%3Ccircle cx='30' cy='30' r='3'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-          backgroundSize: '60px 60px'
-        }}
-      />
-      
+          
  
 
       <div className="relative z-10 text-center text-white max-w-5xl mx-auto px-4">
