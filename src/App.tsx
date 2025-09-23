@@ -21,6 +21,7 @@ interface Specialty {
 interface MenuItem {
   name: string;
   description: string;
+  image?: string; // Propriedade opcional para imagem
 }
 
 interface MenuCategory {
@@ -48,9 +49,14 @@ function App() {
       image: "/images/Comidas/pamonha.jpg"
     },
     {
-      name: "Sopa de Milho",
-      description: "Sopa cremosa de milho verde com frango caipira e temperos da casa",
+      name: "Sopa de Milho Completa",
+      description: "Sopa de milho completa com frango e milho cozido, cremosa e temperada com temperos da casa",
       image: "/images/Comidas/sopaCompleta.jpg"
+    },
+    {
+      name: "Sopa de Milho",
+      description: "Sopa cremosa de milho verde, feita com ingredientes frescos da região",
+      image: "/images/Comidas/sopa.JPG"
     },
     {
       name: "Bolinho Caipira",
@@ -61,6 +67,26 @@ function App() {
       name: "Pastel Caipira",
       description: "Pastel artesanal recheado com frango caipira, queijo e temperos especiais",
       image: "https://static.tvgazeta.com.br/uploads/2019/06/WhatsApp-Image-2019-06-05-at-11.54.36.jpeg"
+    },
+    {
+      name: "Milho Cozido",
+      description: "Milho cozido fresquinho, temperado na manteiga com sal a gosto",
+      image: "/images/Comidas/MilhoCozido.jpg"
+    },
+    {
+      name: "Curau de Milho",
+      description: "Curau cremoso de milho verde, doce tradicional caipira polvilhado com canela",
+      image: "/images/Comidas/CurauDeMilho.JPG"
+    },
+    {
+      name: "Bolo de Milho",
+      description: "Bolo caseiro de milho verde, macio e saboroso, feito com receita tradicional",
+      image: "/images/Comidas/BoloDeMilho.jpg"
+    },
+    {
+      name: "Frango Frito",
+      description: "Frango frito crocante e temperado, preparado na hora com temperos especiais da casa",
+      image: "/images/Comidas/FrangoFrito.jpg"
     },
     // { 
     //   name: "Café Coado", 
@@ -89,10 +115,7 @@ function App() {
     {
       category: "Bebidas",
       items: [
-        { name: "Café Coado", description: "Café fresco passado na hora" },
-        { name: "Suco de Milho", description: "Suco natural de milho verde" },
-        { name: "Água de Coco", description: "Água de coco gelada" },
-        { name: "Refrigerante", description: "Coca-Cola, Guaraná, Fanta" }
+        { name: "Suco de Milho", description: "Suco natural de milho verde", image: "/images/Comidas/SucoDeMilho.JPG" }
       ]
     }
   ];
