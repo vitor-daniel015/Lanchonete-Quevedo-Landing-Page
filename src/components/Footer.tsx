@@ -42,7 +42,7 @@ export default function Footer() {
                 <Facebook className="h-5 w-5" />
               </a>
               <a 
-                href="https://wa.me/5515997553222" 
+                href="https://wa.me/5515997553222?text=Olá! é da Lanchonete Quevedo? Gostaria de Fazer um Pedido" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-amber-700 hover:bg-amber-600 p-3 rounded-full transition-colors inline-block"

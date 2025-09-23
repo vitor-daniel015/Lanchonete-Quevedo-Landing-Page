@@ -33,12 +33,12 @@ function Menu({ menuItems }: MenuProps) {
             <h3 className="text-3xl font-bold font-serif text-amber-800 mb-8 text-center">
               {category.category}
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {category.items.map((item, itemIndex) => (
                 <div key={itemIndex} className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
                   {/* Imagem do item (se disponível) */}
                   {item.image && (
-                    <div className="aspect-square overflow-hidden">
+                    <div className="aspect-[4/3] overflow-hidden">
                       <img
                         src={item.image}
                         alt={item.name}
@@ -47,13 +47,13 @@ function Menu({ menuItems }: MenuProps) {
                     </div>
                   )}
                   
-                  <div className="p-6">
-                    <h4 className="text-xl font-bold text-amber-800 mb-2">{item.name}</h4>
-                    <p className="text-amber-600 mb-4">{item.description}</p>
+                  <div className="p-4">
+                    <h4 className="text-lg font-bold text-amber-800 mb-2">{item.name}</h4>
+                    <p className="text-amber-600 mb-3 text-sm">{item.description}</p>
                     
                     <div className="flex justify-center mt-4">
                       <a 
-                        href={`https://wa.me/5515997553222?text=Olá! Gostaria de fazer um pedido de ${item.name}`}
+                        href="https://wa.me/5515997553222?text=Olá! é da Lanchonete Quevedo? Gostaria de Fazer um Pedido"
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 bg-amber-600 text-white px-4 py-2 rounded-lg hover:bg-amber-700 transition-all duration-300 text-sm font-medium"
