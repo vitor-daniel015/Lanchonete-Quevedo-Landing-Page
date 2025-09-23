@@ -53,7 +53,7 @@ function Menu({ menuItems }: MenuProps) {
                     
                     <div className="flex justify-center mt-4">
                       <a 
-                        href={`https://wa.me/5515997553222?text=Olá! Gostaria de fazer um pedido de ${item.name}`}
+                        href="https://wa.me/5515997553222?text=Olá! é da Lanchonete Quevedo? Gostaria de Fazer um Pedido"
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 bg-amber-600 text-white px-4 py-2 rounded-lg hover:bg-amber-700 transition-all duration-300 text-sm font-medium"
