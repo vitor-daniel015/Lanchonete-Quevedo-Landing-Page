@@ -19,25 +19,36 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Contato</h3>
             <div className="space-y-2 text-amber-200">
-              <p>Telefone: (15) 3267-1234</p>
-              <p>WhatsApp: (15) 99999-9999</p>
-              <p>Rua Principal, 123 - Centro</p>
-              <p>Capela do Alto, SP</p>
+              <p>Telefone: (15) 99755-3222</p>
+              <p>WhatsApp: (15) 99755-3222</p>
+              <p>Email: nenequevedo@hotmail.com</p>
+              <p>R. São Francisco n°19</p>
+              <p>Capela do Alto, SP, Brazil</p>
             </div>
           </div>
 
           <div>
             <h3 className="text-xl font-bold mb-4">Redes Sociais</h3>
             <div className="flex space-x-4">
-              <button className="bg-amber-700 hover:bg-amber-600 p-3 rounded-full transition-colors">
+              <a href="https://www.instagram.com/quevedos_lanchonete" className="bg-amber-700 hover:bg-amber-600 p-3 rounded-full transition-colors">
                 <Instagram className="h-5 w-5" />
-              </button>
-              <button className="bg-amber-700 hover:bg-amber-600 p-3 rounded-full transition-colors">
+              </a>
+              <a 
+                href="https://www.facebook.com/quevedoslanchonete/?locale=pt_BR" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-amber-700 hover:bg-amber-600 p-3 rounded-full transition-colors inline-block"
+              >
                 <Facebook className="h-5 w-5" />
-              </button>
-              <button className="bg-amber-700 hover:bg-amber-600 p-3 rounded-full transition-colors">
+              </a>
+              <a 
+                href="https://wa.me/5515997553222?text=Olá! é da Lanchonete Quevedo? Gostaria de Fazer um Pedido" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-amber-700 hover:bg-amber-600 p-3 rounded-full transition-colors inline-block"
+              >
                 <MessageCircle className="h-5 w-5" />
-              </button>
+              </a>
             </div>
           </div>
         </div>
